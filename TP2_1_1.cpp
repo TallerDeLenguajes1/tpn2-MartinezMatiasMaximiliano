@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : tp2_1.cpp
+ Name        : tp2_1.1.cpp
  Author      : Martinez Matias Maximiliano
  Version     : 
  Copyright   :
@@ -13,19 +13,20 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define N 4 
-#define M 5 
+#define N 4
+#define M 5
 
 int f,c;
-double mt[N][M];
+
+double matriz[N][M];
 
 int main(){
-    for(f = 0;f<N; f++){
-        for(f = 0;f<N; f++){
-            printf("%lf   ", mt[f][c]);
-            }
-            printf("\n"); 
+    for(f=0;f<N;f++){
+        for(c=0;c<M;c++)
+        {
+            printf("%lf  ",matriz[f][c]);
+        }
+        printf("\n");
     }
-    getchar();
-    return 0;
-} 
+return 0;
+}
